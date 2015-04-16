@@ -70,6 +70,7 @@ Our command now to see the file size of 'pete.txt'
 ```shell
   ls -s 
 ```
+'pete.txt' has a 0 next him meaning there is nothing in the file.
 
 ### Give Pete a personality 
 
@@ -96,3 +97,28 @@ The bottom of the screen will change and ask if we want to save. Press Y for yes
 Then press 'Enter' to confirm we are writing the file.
 
 Now we are out of Nano back into the command prompt.
+
+### Don't forget what we have learned.
+
+Now we have data inside 'pete.txt' can we see if the file size has changed.
+
+```shell
+  ls -s
+```
+There is now a 4 next to 'pete.txt' but what does that mean. Its not very clear. The manual for 'ls' said that '-s' would display the size in blocks. Can we make this human readable change it to something we know like kilobytes or megabytes file sizes?
+
+Checking the manual again you can find the option:
+
+```shell
+  -h, --human-readable
+      with -l, print sizes in human readable format (e.g., 1K 234M 2G)
+```
+Lets add that to our 'ls' command
+
+```shell
+  ls -sh
+```
+Now pete.txt says 4.0K (K meaning kilobytes)
+
+Why not check out the other options like '-l'. Also take a look at the manual for 'nano'
+
