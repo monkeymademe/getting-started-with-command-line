@@ -16,15 +16,15 @@ Before we start our little journey though command line we need to understand whe
 
 Write the following command:
 
-'''shell
+```shell
   pwd
-'''
+```
 
-Print working directory (pwd) will output the current directory you are working in. This would be:
+Print working directory 'pwd' will output the current directory you are working in. This would be:
 
-'''shell
+```shell
   /home/pi
-'''
+```
 
 This is telling us that in the base system there is a folder called 'home' and in that folder is a folder called 'pi'. Since that is where we are working, if we were to make a file 'pete.txt' the file would be at this location '/home/pi/pete.txt'
 
@@ -33,12 +33,66 @@ This is telling us that in the base system there is a folder called 'home' and i
 As we are starting our little journy using command line we are going to need a friend to help us along the way.
 
 ```shell
-  pi@raspberrypi $ touch pete.txt
+  touch pete.txt
 ```
 
 Touch is a command that will simply create an empty file. 
 
+### Are we alone
+
+Type: 
+
+```shell
+  ls
+```
+'ls' will list the directories and files of your current working directory. So now we can see that 'pete.txt' is there.
+
+### Man Up
+
+A question you might be asking yourself is: Ok 'ls' looks nice! Can I see how big the files are?
+
+Type the following:
+
+```shell
+  man ls
+```
+'man' meaning manual will open the instuctions for the command written after 'man'. 'man ls' would give me the manual for command 'ls'
+
+We want to look at the option that looks like this:
+
+```shell
+  -s , --size
+      print the allocated size of each file, in blocks
+```
+
+Our command now to see the file size of 'pete.txt' 
+
+```shell
+  ls -s 
+```
+
 ### Give Pete a personality 
 
-Pete does not have much going on so we are going to edit him and give him some text to save.
+Pete does not have much going on so we are going to edit him and give him some text.
 
+```shell
+  nano pete.txt
+```
+
+Nano is a text editing program that works in command line.
+
+Type at the top of the screen 
+
+```shell
+  Hello I am pete!
+```
+
+At the bottom of the screen there are some short cut tips on how to use nano. 
+
+Press 'CTRL' + X to start to exit the file 
+
+The bottom of the screen will change and ask if we want to save. Press Y for yes.
+
+Then press 'Enter' to confirm we are writing the file.
+
+Now we are out of Nano back into the command prompt.
