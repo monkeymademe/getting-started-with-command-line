@@ -24,8 +24,7 @@ As well as a Raspberry Pi with an SD card loaded with Raspbian:
 
 You will need the following worksheet to get started:
 
-- [The worksheet](worksheet.md)
-- [The second worksheet](worksheet-2.md)
+- [Our first commands](worksheet.md)
 
 ## Learn more
 
