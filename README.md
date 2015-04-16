@@ -4,9 +4,9 @@ No matter what operating system you are using you are always giving the computer
 
 I want this file to go here
 
-*Click and hold- I want > this file 
-*Drag - To go
-*Release Click - Here
+* Click and hold- I want > this file 
+* Drag - To go
+* Release Click - Here
 
 But there is another way to move our file. We could acctually type a command to tell the computer to move a file from one folder to another. For this we would use command line.
 
