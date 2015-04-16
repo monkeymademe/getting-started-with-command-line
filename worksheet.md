@@ -118,7 +118,9 @@ Lets add that to our 'ls' command
 ```shell
   ls -sh
 ```
-Now pete.txt says 4.0K (K meaning kilobytes)
+Now pete.txt says 4.0K (K meaning kilobytes). Thats better!
 
 Why not check out the other options like '-l'. Also take a look at the manual for 'nano'
+
+
 
