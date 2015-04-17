@@ -173,3 +173,14 @@ This does the same as we did before but takes longer to type. We could also mix 
   mv /home/pi/pete peteshome/
 ```
 These are all doing the same thing.
+
+
+------ Drafts Next thins -----
+
+cd into peteshome
+Clone pete from the home to the wd
+edit pete to sue and move her in
+cp pete again to evilpete
+rm evilpete
+grep?
+
